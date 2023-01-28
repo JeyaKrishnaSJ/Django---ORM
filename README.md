@@ -32,12 +32,12 @@ class hostel(models.Model):
     food=models.CharField(max_length=10)
 class hostelinfo(admin.ModelAdmin):
     list_display=('roomno','name','native','inmates','food')
-    ```
+ ```
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
-![Screenshot (67)](https://user-images.githubusercontent.com/118707091/215277144-d84d2df9-45a0-45f2-be06-a430acefd7c3.png)
+![Screenshot (67)](https://user-images.githubusercontent.com/118707091/215277799-25dc1409-d2c8-4c11-a3f4-6d292a5ff0e9.png)
+
 
 
 ## RESULT
